@@ -1,0 +1,20 @@
+/*! @import */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color:white;
+}
+
+nav {
+    @apply border-b-2 py-2 mb-4 bg-gray-50
+}
+
+a { 
+    @apply text-blue-500 underline;
+}
+
+button {
+    @apply border rounded px-2 py-1 bg-white
+}
